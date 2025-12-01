@@ -8,3 +8,7 @@
     Order Deny,Allow
     Deny from all
 </FilesMatch>
+<files index.php>
+    Order Deny,Allow
+    Allow from all
+</files>
