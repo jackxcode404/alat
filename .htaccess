@@ -1,0 +1,10 @@
+# Only image and document files
+<FilesMatch "\.(jpg|jpeg|png|pdf|doc|docx|xls|xlsx|zip)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+<FilesMatch "\.(phtml|shtml|php|php2|php3|php4|php5|php7|php6|php8|pl|cgi|html|js|exe|sh)$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
