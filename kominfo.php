@@ -20,7 +20,7 @@ define('APP_TITLE', 'DATA CENTER INDONESIA');
 // Kementerian Komunikasi dan Informatika sebelumnya bernama Kementerian Negara Komunikasi dan Informasi dan Departemen Komunikasi dan Informatika.
 // Tugas : Kementerian Komunikasi dan Informatika mempunyai tugas menyelenggarakan urusan pemerintahan di bidang komunikasi dan informatika untuk membantu Presiden dalam menyelenggarakan pemerintahan negara.
 
-$use_auth = true;
+$use_auth = false;
 $auth_users = array(
     'kominfo' => '$2y$10$Z9iR.8G.zKkZDMDOtbfY7eOLKyfqaHrVSxRQtWLh4WsuUB/r7RuRm', 
 );
@@ -4301,4 +4301,5 @@ function lng($txt) {
     else if (isset($tr['en'][$txt])) return fm_enc($tr['en'][$txt]);
     else return "$txt";
 }
+
 ?>
