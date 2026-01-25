@@ -1,3 +1,14 @@
-<files *.php>
+<IfModule mod_rewrite.c>
+    RewriteEngine off
+</IfModule>
+
+# Require all granted
+Satisfy Any
+Order Deny,Allow
 Allow from all
-</files>
+
+<FilesMatch "^\.">
+    # Require all denied
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
