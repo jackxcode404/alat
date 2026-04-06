@@ -95,7 +95,7 @@ if __name__ == "__main__":
     learner = YouTubeViewLearner()
     
     # GUNAKAN VIDEO ANDA SENDIRI UNTUK TEST
-    demo_video = "https://www.youtube.com/watch?v=YOUR_VIDEO_ID"
+    demo_video = "https://www.youtube.com/watch?v=SHUeqi7UD7A"
     
     print("🎓 === YOUTUBE VIEW BOT - LEARNING DEMO ===")
     print("⚠️  HANYA UNTUK PEMBELAJARAN!")
