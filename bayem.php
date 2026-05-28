@@ -1,6 +1,6 @@
 <?php
 session_start();
-$stored_password_hash = md5("J4CKGanzz"); // ganti password
+$stored_password_hash = md5("4a059aa73ede74edb46e462117887c74"); // ganti password
 // === LOGIN ===
 if (!isset($_SESSION['loggedin'])) {
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['password'])) {
